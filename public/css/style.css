@@ -1,0 +1,82 @@
+body{
+    margin: 100px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+tr{
+    height: 50px;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    padding: 10px 20px;
+}
+
+input{
+    height: 30px;
+}
+
+.input_name,
+.input_postcode{
+    display: flex;
+}
+
+.addpt{
+    font-weight: bold;
+    display: flex;
+    align-items:center;
+    padding-right:8px;
+}
+
+span{
+    color: red;
+}
+
+p{
+    color: gray;
+    opacity: .8;
+    padding-top: 10px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.submit_btn{
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.error{
+    color: red;
+}
+
+.btn-return
+{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+
+
